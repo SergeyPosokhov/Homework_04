@@ -17,8 +17,6 @@ void Power(int a, int b)
         {
             Console.WriteLine($"Число {a} в степени {b} будет равно {power}");
         }
-
-    Console.Write(power);
 }
 Power(a, b);
 
