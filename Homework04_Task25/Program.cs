@@ -4,7 +4,7 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите число B ");
 int b = Convert.ToInt32(Console.ReadLine());
 
-int Power(int a, int b)
+void Power(int a, int b)
 {
     int power = a;
     int i = 1;
@@ -18,7 +18,7 @@ int Power(int a, int b)
             Console.WriteLine($"Число {a} в степени {b} будет равно {power}");
         }
 
-    return power;
+    Console.Write(power);
 }
 Power(a, b);
 
